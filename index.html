@@ -166,7 +166,7 @@
         <header>
             <div class="logo">FANSCORECARDS</div>
             <h1>Privacy Policy</h1>
-            <p class="updated">Last Updated: January 9, 2026</p>
+            <p class="updated">Last Updated: January 19, 2026</p>
         </header>
         
         <main>
@@ -181,6 +181,7 @@
             <ul>
                 <li><strong>Email address</strong> — used for account authentication and communication</li>
                 <li><strong>Password</strong> — securely hashed and stored; we never store plain-text passwords</li>
+                <li><strong>Sign in with Apple</strong> — if you use Apple Sign-In, we receive a unique identifier and optionally your email address from Apple</li>
             </ul>
             
             <h3>User-Generated Content</h3>
@@ -188,6 +189,7 @@
             <ul>
                 <li><strong>Fight scores</strong> — your round-by-round scoring for boxing and UFC events</li>
                 <li><strong>Scoring sessions</strong> — timestamps and fight associations for your scorecards</li>
+                <li><strong>Feedback</strong> — ratings and comments you submit about the App</li>
             </ul>
             
             <h3>Preferences</h3>
@@ -195,13 +197,26 @@
             <ul>
                 <li>Sport type filter settings (e.g., boxing, UFC, or all sports)</li>
             </ul>
-            
+
+            <h3>Push Notification Data</h3>
+            <p>If you enable notifications, we collect:</p>
+            <ul>
+                <li><strong>Device tokens</strong> — unique identifiers for delivering push notifications</li>
+                <li><strong>Notification preferences</strong> — your settings for which notifications to receive</li>
+            </ul>
+
+            <h3>Subscription Information</h3>
+            <p>If you purchase a subscription, Apple handles payment processing. We receive:</p>
+            <ul>
+                <li><strong>Subscription status</strong> — whether you have an active subscription</li>
+                <li><strong>Transaction identifiers</strong> — to verify and manage your subscription</li>
+            </ul>
+
             <h3>Automatically Collected Information</h3>
             <p>When you use the App, we may automatically collect:</p>
             <ul>
                 <li><strong>Device information</strong> — device type, operating system version, unique device identifiers</li>
                 <li><strong>Usage data</strong> — features accessed, time spent in the App, crash reports</li>
-                <li><strong>Advertising identifiers</strong> — with your consent, for personalized advertising</li>
             </ul>
             
             <h2>2. How We Use Your Information</h2>
@@ -212,7 +227,7 @@
                 <li>Authenticate your account and enable core functionality</li>
                 <li>Store and display your fight scorecards</li>
                 <li>Aggregate anonymous scoring data to show community statistics</li>
-                <li>Display advertisements (personalized with consent, or non-personalized)</li>
+                <li>Send push notifications about events you follow (with your permission)</li>
                 <li>Respond to your inquiries and support requests</li>
                 <li>Detect and prevent fraud or abuse</li>
             </ul>
@@ -221,21 +236,16 @@
             
             <h3>Supabase</h3>
             <p>We use Supabase for backend services including authentication and database storage. Your account data and scores are stored on Supabase's secure servers. For more information, see <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase's Privacy Policy</a>.</p>
-            
-            <h3>Google AdMob</h3>
-            <p>We use Google AdMob to display advertisements. AdMob may collect and use data to provide personalized ads based on your interests. This includes:</p>
+
+            <h3>Firebase</h3>
+            <p>We use Firebase services provided by Google for:</p>
             <ul>
-                <li>Device identifiers (Advertising ID)</li>
-                <li>IP address</li>
-                <li>Usage data and interactions with ads</li>
+                <li><strong>Analytics</strong> — to understand how users interact with the App and improve features</li>
+                <li><strong>Crashlytics</strong> — to collect crash reports and diagnostic data to fix issues</li>
+                <li><strong>Cloud Messaging</strong> — to deliver push notifications</li>
             </ul>
-            
-            <div class="highlight-box">
-                <p><strong>Your Choices:</strong> On iOS, you will be asked whether to allow tracking via Apple's App Tracking Transparency (ATT) prompt. If you opt out, you will still see ads, but they will not be personalized based on your activity across other apps and websites.</p>
-            </div>
-            
-            <p>For more information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How Google uses data from AdMob</a>.</p>
-            
+            <p>For more information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
             <h2>4. Data Retention</h2>
             
             <p>We retain your personal information for as long as your account is active or as needed to provide you services. You may request deletion of your account and associated data at any time by contacting us.</p>
@@ -265,7 +275,7 @@
                 <li><strong>Correction</strong> — request correction of inaccurate data</li>
                 <li><strong>Deletion</strong> — request deletion of your personal data</li>
                 <li><strong>Portability</strong> — request your data in a portable format</li>
-                <li><strong>Opt-out</strong> — opt out of personalized advertising</li>
+                <li><strong>Opt-out</strong> — opt out of analytics data collection</li>
             </ul>
             
             <p>To exercise any of these rights, please contact us using the information below.</p>
